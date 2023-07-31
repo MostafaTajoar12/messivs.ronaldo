@@ -1,0 +1,66 @@
+#header~div{
+  margin-top: 80px;
+  }
+
+.player-info {
+  border: 1px solid black ;
+  padding: 15px;
+  height: 200px;
+  margin-bottom: 50px;
+  overflow: scroll;
+  background: rgb(41, 74, 99);
+  color: white;
+  border-radius: 0 10px 10px 10px;
+  transition: all 500ms linear 1s;
+}
+
+.player-info:hover {
+  background: rgba(41, 74, 99, .7);
+  border-radius: 0 20px 20px 20px;
+  box-shadow: 2px 2px 5px #777;
+  }
+
+img{
+  width: auto;
+  height: 200px;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: #A4DADC;
+}
+a:hover {
+  color: green;
+}
+
+h2, h3 {
+  font-family: Arial, sans-serif;
+}
+
+h3{
+  font-size: 24px
+}
+
+p {
+  font-family: 'Roboto Slab', serif;
+}
+
+.carousel img {
+  height: 400px;
+  padding-top: 30px;
+}
+#messi h3, #ronaldo h3 {
+  text-shadow: 0px 2px 5px #888;
+}
+#messi img, #ronaldo img {
+  widht: auto;
+  height: 200px
+
+}
+#messi img:hover, #ronaldo img:hover {
+  transform: scale(1.2);
+  transition: all 500ms;
+}
